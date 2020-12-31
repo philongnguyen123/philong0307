@@ -1,0 +1,84 @@
+<html>
+<head>
+    <title>REMINDER</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="list.js"></script>
+    <script src="clock.js"></script>
+    
+</head>
+
+<body>
+
+    <h1>HABIT REMINDER</h1>
+
+
+   
+<div class="container">
+     
+    <div id="myDIV" class="header">
+      <h2 style="margin:5px">MY ROUTINE FOR THE DAY</h2>
+      <input type="text" id="myInput" placeholder="Title...">
+      <span onclick="newElement()" class="addBtn">ADD</span>
+    </div>
+   
+</div> 
+
+    
+
+
+  <div class="clock-container">
+    <h1>Choose a time for your habbit:</h1>
+    <button class="btn-info btn-block btn">Choose time</button>
+
+    <div class="clock">
+      <input type="time" id="appt" name="appt"
+          min="09:00" max="18:00" required>
+    </div>
+
+    
+<div class="abc">
+    <div class = "abc-list">
+      <ul id="myUL">
+        <li class="checked">brush teeth</li>
+        <li class="checked">take a shower</li>
+      </ul>
+    </div>
+
+    <div class="abc-clock">
+      <span class="wrap-time">
+    
+      <span class="time-unit">
+        <span class="large day">Mon</span>
+        <span class="small">DAY</span>
+      </span>
+      
+      <span class="time-unit">
+        <span class="large hours">00</span>
+        <span class="small">HOURS</span>
+      </span>
+      <span class="separator">:</span>
+      
+      <span class="time-unit">
+        <span class="large minutes">00</span>
+        <span class="small">MINUTES</span>
+      </span>
+      <span class="separator">:</span>
+      
+      <span class="time-unit">
+        <span class="large seconds">00</span>
+        <span class="small">SECONDS</span>
+      </span>
+      
+      <span class="time-unit">
+        <span class="large period">AM</span>
+        <span class="small">PERIOD</span>
+      </span>
+    </span>
+    </div>
+    </div>
+</div>
+
+
+  </div>
+</body>
+</html>
